@@ -2,7 +2,7 @@
 
 A local-first, self-hosted item manager for **Grim Dawn**, built as a modern alternative to GD Item Assistant (GDIA).
 
-> **Status:** early development. The design is frozen; the data layer is being built.
+> **Status:** early development. The design is frozen; phase 1 (data layer) is underway. The save codec and structural parsers are validated against a real level-4 character.
 
 ## Why another item manager?
 
@@ -70,6 +70,8 @@ Requirements: .NET 8 SDK, Node.js 20+, Git.
 
 ```powershell
 dotnet build
+dotnet test
+dotnet run --project src/GdMyStash.Cli -- inspect "path/to/player.gdc" --verbose
 npm --prefix web install
 npm --prefix web run dev
 ```

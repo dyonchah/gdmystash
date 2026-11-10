@@ -41,5 +41,7 @@ The emulated cloud folder is a normal local directory. The application should au
 
 ## Notes
 
-- The game has not been played yet on this machine; there are no `player.gdc` or `transfer.gst` files as of the initial setup.
-- Test fixtures from `gd-edit` (`test-resources/save-files/*.gdc`) are used until real saves exist.
+- The game has been launched; a level-4 character exists and the shared stash has been created.
+- Active save root: `C:\Users\Public\Documents\Steam\RUNE\219990\remote\save`.
+- The shared stash is empty as of the first inspection.
+- Real saves are used for local validation only and are never committed.
