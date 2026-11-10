@@ -78,6 +78,11 @@ npm --prefix web run dev
 
 Commands will be filled in as the projects are scaffolded.
 
+## Planning
+
+- [Spec: first usable local collection and character viewer](docs/specs/001-first-usable-app.md)
+- [Tickets: first usable app](.scratch/first-usable-app/README.md)
+
 ## License
 
 TBD. Third-party components and their licenses are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).

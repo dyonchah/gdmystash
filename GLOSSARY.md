@@ -9,6 +9,9 @@ The project uses the following terms consistently in code, UI, and documentation
 | **Item Definition** | A record in the game database that describes a kind of item: a base item, an affix, a component, or an augment. |
 | **Item Instance** | A specific item, identified by its record names and seed. Two instances of the same base item can roll different stats. |
 | **Item Replica** | The game's serialized representation of an item instance, used when moving the item between the game and the application. |
+| **Game Database** | The compiled game data (`database.arz` plus the expansion archives) that defines item types, affixes, and stats. |
+| **Game Folder** | The Grim Dawn installation directory that contains the game database and assets. |
+| **Snapshot Import** | A read-only import that copies and parses save files without modifying them. It is not a Sweep because nothing is removed from the game. |
 | **Affix** | A prefix or suffix applied to an item instance. |
 | **Component** | An item attached to a piece of gear. In the save format these are stored in the `relic` fields. |
 | **Augment** | A faction augmentation attached to a piece of gear. |
