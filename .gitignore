@@ -1,0 +1,38 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Test and coverage output
+TestResults/
+coverage/
+*.trx
+*.coverage
+
+# Local data and backups
+*.db
+*.db-shm
+*.db-wal
+data/
+backups/
+artifacts/
+
+# Secrets and local configuration
+.env
+.env.*
+*.local
+
+# OS and editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/

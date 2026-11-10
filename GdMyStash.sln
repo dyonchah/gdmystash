@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77967D33-F604-4109-A10E-1D913EB4CB39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdMyStash.Core", "src\GdMyStash.Core\GdMyStash.Core.csproj", "{B07F2180-B9FC-4B50-8EED-56A0C7456A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdMyStash.Data", "src\GdMyStash.Data\GdMyStash.Data.csproj", "{1E6C4F48-DB71-48D9-9EFD-503DD9AA22E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdMyStash.Server", "src\GdMyStash.Server\GdMyStash.Server.csproj", "{0488874C-4C0F-4658-B801-C69D3981A78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdMyStash.Cli", "src\GdMyStash.Cli\GdMyStash.Cli.csproj", "{11D1E8B6-6B20-48A4-B852-D063AD97D8B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7835D38E-A735-4168-AEE8-5B00C15F3198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdMyStash.Tests", "tests\GdMyStash.Tests\GdMyStash.Tests.csproj", "{E9F85A95-57E1-4612-AD0C-0EA57F5AF858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07F2180-B9FC-4B50-8EED-56A0C7456A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07F2180-B9FC-4B50-8EED-56A0C7456A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07F2180-B9FC-4B50-8EED-56A0C7456A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07F2180-B9FC-4B50-8EED-56A0C7456A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6C4F48-DB71-48D9-9EFD-503DD9AA22E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6C4F48-DB71-48D9-9EFD-503DD9AA22E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6C4F48-DB71-48D9-9EFD-503DD9AA22E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6C4F48-DB71-48D9-9EFD-503DD9AA22E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0488874C-4C0F-4658-B801-C69D3981A78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0488874C-4C0F-4658-B801-C69D3981A78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0488874C-4C0F-4658-B801-C69D3981A78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0488874C-4C0F-4658-B801-C69D3981A78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D1E8B6-6B20-48A4-B852-D063AD97D8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D1E8B6-6B20-48A4-B852-D063AD97D8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D1E8B6-6B20-48A4-B852-D063AD97D8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D1E8B6-6B20-48A4-B852-D063AD97D8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F85A95-57E1-4612-AD0C-0EA57F5AF858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F85A95-57E1-4612-AD0C-0EA57F5AF858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F85A95-57E1-4612-AD0C-0EA57F5AF858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F85A95-57E1-4612-AD0C-0EA57F5AF858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B07F2180-B9FC-4B50-8EED-56A0C7456A71} = {77967D33-F604-4109-A10E-1D913EB4CB39}
+		{1E6C4F48-DB71-48D9-9EFD-503DD9AA22E2} = {77967D33-F604-4109-A10E-1D913EB4CB39}
+		{0488874C-4C0F-4658-B801-C69D3981A78C} = {77967D33-F604-4109-A10E-1D913EB4CB39}
+		{11D1E8B6-6B20-48A4-B852-D063AD97D8B6} = {77967D33-F604-4109-A10E-1D913EB4CB39}
+		{E9F85A95-57E1-4612-AD0C-0EA57F5AF858} = {7835D38E-A735-4168-AEE8-5B00C15F3198}
+	EndGlobalSection
+EndGlobal
